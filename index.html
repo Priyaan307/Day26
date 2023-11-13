@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Remind Me</title>
+</head>
+<body onload="sayHi()">
+   <div class="logo">
+     <h2>Remind Me!</h2>
+   </div>
+
+   <div class="greetings">
+     <h4 id="peace">Greetings!</h4>
+   </div>
+
+   <div class="time">
+     <p id="currTime"></p>
+     <p id="currDate"></p>
+   </div>
+
+   <div class="newReminder">
+     <button type="button" id="addNew">+ New Reminder</button>
+   </div>
+
+   <section>
+     <form class="remind" id="theForm">
+
+       <div class="reminder-input">
+         <label><span>Title:</span></label>
+         <input type="text" id="title" placeholder="Type title...">
+       </div>
+       <div class="reminder-input">
+         <label><span>Date:</span></label>
+         <input type="date" id="date">
+       </div>
+       <div class="reminder-input">
+         <label><span>Location:</span></label>
+         <input type="text" id="location" placeholder="Type location...">
+       </div>
+
+       <button type="submit">Add</button>
+     </form>
+
+   </section>
+
+   <section class="result">
+    <div id="addedReminders"></div>
+  </section>
+
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  .logo {
+    color: rgb(183, 61, 245)
+  }
+  
+  .greetings {
+    color: rgb(183, 61, 245);
+    letter-spacing: 2px;
+  }
+  
+  .time {
+    border: none;
+    color: rgb(183, 61, 245);
+    margin-bottom: 1.5em;
+  }
+  
+  .newReminder button {
+    font-size: 24px;
+    padding: 8px;
+    margin-bottom: 1em;
+    background-color: rgb(183, 61, 245);
+    border: 2px solid rgb(183, 61, 245);
+  }
+  
+  button {
+    background-color: rgb(183, 61, 245);
+    color:#fff;
+    font-weight: bold;
+    border: 2px solid rgb(183, 61, 245);
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #remove {
+    background-color: #f54;
+    border: 2px solid #f54;
+  
+  }
+  
+  /* form styles */
+  form {
+    margin: 2em;
+    width: 90%;
+    margin-left: 5%;
+  }
+  
+  #theForm {
+    display: none;
+  }
+  
+  .reminder-input {
+    content: "";
+    display: flex;
+    clear: both;
+    margin: .5em;
+    width: 100%;
+  }
+  
+  label {
+    width: 25%;
+    border-left: 5px solid rgb(183, 61, 245);
+  }
+  
+  label span {
+    float: left;
+    padding-left: 3px;
+  }
+  
+  input {
+    width: 60%;
+    border: 2px solid rgb(183, 61, 245);
+    margin-left: 6px;
+    padding-left: 5px;
+    font-size: 20px;
+  }
+  
+  .submitter {
+    width: 4em;
+    height: 2em;
+  }
+  
+  @media (min-width: 768px)  {
+  
+    body {
+      width: 70%;
+      margin-left: 15%;
+    }
+  
+  }
+  /* after finishing js */
+  .res {
+    content: "";
+    display: flex;
+    clear: both;
+    width: 94%;
+    font-size: 20px;
+    margin: 0.2em 3%;
+    padding-left: 2px;
+    padding: 3px ;
+    border: 3px solid lightgray;
+  }
+  
+  .reminder-title {
+    text-align: left;
+    width: 30%;
+    float: left;
+    padding-left: 3px;
+  }
+  
+  .reminder-location{
+    width: 20%;
+    padding-left: 2px;
+  }
+  
+  .reminder-date {
+    width: 40%;
+    float: right;
+  }
